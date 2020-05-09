@@ -1,9 +1,9 @@
 jlink --module-path ./lib --output myimage --add-modules edu.chinna.kadhira.consumer --launcher=kondapalli=edu.chinna.kadhira.consumer
 
-classes in classpath can reach in other classes in classpath
-classes in moulepath can reach in other classes in moulepath
-classes in moulepath can reach in other classes in classpath
-classes in classpath can't reach in other classes in moulepath
+classes in classpath can reach in other classes in classpath.
+classes in moulepath can reach in other classes in moulepath.
+classes in moulepath can reach in other classes in classpath.
+classes in classpath can't reach in other classes in moulepath.
 
 To find java module information :  jar -f jar-file -d 
 
